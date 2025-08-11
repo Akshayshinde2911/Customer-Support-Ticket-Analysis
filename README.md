@@ -32,9 +32,10 @@ The goal is to demonstrate **end-to-end data analytics skills** — from databas
 ## 🗄 SQL Implementation
 
 ### 1️⃣ Creating a Database
-```sql```
+```sql
  Create database Customer_Support ;
  use customer_support;
+```
 
  ### 2️⃣ Create Dimension Tables 
 ```sql
@@ -63,7 +64,7 @@ CREATE TABLE tags (
     tag_id INT PRIMARY KEY AUTO_INCREMENT,
     tag_name VARCHAR(100) UNIQUE
 );
-
+``` 
 ### 3️⃣ Create Fact Tables
 ```sql 
 CREATE TABLE tickets (
@@ -85,7 +86,7 @@ created_at date,
     tag_6 VARCHAR(100),
     tag_7 VARCHAR(100),
     tag_8 VARCHAR(100) ) ;
-
+```
 ### 4️⃣ Insert Data into Dimension tables
 ```sql
 
@@ -109,7 +110,7 @@ values ('Technical Support'),
 INSERT INTO priorities (priority_name) VALUES ('high'),('medium'), ('low');
 
 INSERT INTO languages (language_code) VALUES ('de'),('en');
-
+```
 ### 5️⃣ Creating a temporary bridge table
 ```sql
 
@@ -132,7 +133,7 @@ created_at date,
     tag_7 VARCHAR(100),
     tag_8 VARCHAR(100)
 );
-
+```
 ### 6️⃣ Inserting Data into tickets (fact) table
 ```sql 
 
@@ -157,12 +158,12 @@ JOIN ticket_types t ON s.type_name = t.type_name
 JOIN queues q ON s.queue = q.queue_name
 JOIN priorities p ON s.priority = p.priority_name
 JOIN languages l ON s.language = l.language_code ;
-
+```
 ### 7️⃣ Dropping the temporary table
 ```sql
 
 drop table raw_data_tickets
-
+```
 ### 8️⃣ Creating a date dimension table
 ```sql
 
@@ -170,7 +171,7 @@ CREATE TABLE dim_date (
     date_id INT PRIMARY KEY AUTO_INCREMENT,
     created_at DATE
 );
-
+```
 
 ### 9️⃣ Adding date values from 2024-01-01 and 2024-12-31 ( Inserting date data into the "dim_date" table for the year 2024, as the original dataset does not have date
  data)
@@ -187,7 +188,7 @@ WITH RECURSIVE date_series AS (
 SELECT created_at FROM date_series;
 
 select * from dim_date;
-
+```
 ### 1️⃣0️⃣ Adding foreign Key Constraints to establish relationships in the dataset.
 
 ``sql
@@ -232,3 +233,4 @@ WHERE tag_name IS NOT NULL AND tag_name <> '';
 
 
 
+```
