@@ -191,7 +191,7 @@ select * from dim_date;
 ```
 ### 1️⃣0️⃣ Adding foreign Key Constraints to establish relationships in the dataset.
 
-``sql
+```sql
 
 ALTER TABLE tickets
   ADD CONSTRAINT fk_type
@@ -230,4 +230,5 @@ FROM (
     SELECT tag_8 FROM tickets
 ) AS all_tags
 WHERE tag_name IS NOT NULL AND tag_name <> '';
+
 ```
