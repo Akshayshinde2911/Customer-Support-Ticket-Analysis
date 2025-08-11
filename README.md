@@ -36,7 +36,8 @@ The goal is to demonstrate **end-to-end data analytics skills** — from databas
   
 ## 🗄 SQL Implementation
                    
-### 1️⃣ Creating a Database</summary>
+<details>
+<summary>1️⃣ Creating a Database</summary>
 
 ```sql
 CREATE DATABASE Customer_Support;
