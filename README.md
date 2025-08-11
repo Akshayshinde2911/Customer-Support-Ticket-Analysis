@@ -31,10 +31,14 @@ The goal is to demonstrate **end-to-end data analytics skills** — from databas
 
 ## 🗄 SQL Implementation
 
-### 1️⃣ Creating a Database
+## 🗄 SQL Implementation
+
+<details>
+<summary>1️⃣ Creating a Database</summary>
+
 ```sql
- Create database Customer_Support ;
- use customer_support;
+CREATE DATABASE Customer_Support;
+USE customer_support;
 ```
 
  ### 2️⃣ Create Dimension Tables 
