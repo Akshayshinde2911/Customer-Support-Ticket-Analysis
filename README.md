@@ -32,11 +32,11 @@ The goal is to demonstrate **end-to-end data analytics skills** — from databas
 ## 🗄 SQL Implementation
 
 ### 1️⃣ Creating a Database
-```sql
+```sql```
  Create database Customer_Support ;
  use customer_support;
 
-### ### 2️⃣ Create Dimension Tables 
+ ### 2️⃣ Create Dimension Tables 
 ```sql
 
 CREATE TABLE ticket_types (
@@ -229,4 +229,6 @@ FROM (
     SELECT tag_8 FROM tickets
 ) AS all_tags
 WHERE tag_name IS NOT NULL AND tag_name <> '';
+
+
 
