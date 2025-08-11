@@ -173,10 +173,10 @@ CREATE TABLE dim_date (
 );
 ```
 
-### 9️⃣ Adding date values from 2024-01-01 and 2024-12-31 ( Inserting date data into the "dim_date" table for the year 2024, as the original dataset does not have date
+### 9️⃣ Adding date values from 2024-01-01 and 2024-12-31 ( Inserting date data into the "dim_date" table for the year 2024, as the original dataset does not have date data)
  data)
 
-
+```sql
 INSERT INTO dim_date (created_at)
 WITH RECURSIVE date_series AS (
   SELECT DATE('2024-01-01') AS created_at
@@ -230,7 +230,4 @@ FROM (
     SELECT tag_8 FROM tickets
 ) AS all_tags
 WHERE tag_name IS NOT NULL AND tag_name <> '';
-
-
-
 ```
