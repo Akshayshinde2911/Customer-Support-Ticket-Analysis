@@ -1,8 +1,8 @@
 # Customer Support Ticket Analytics Project
 
 ## 📌 Project Overview
-This project analyzes **customer support tickets** to gain insights into ticket trends, agent performance, resolution efficiency, and tag/category patterns.  
-It uses **SQL** for data modeling, cleaning, and transformation, and **Power BI** for creating an interactive dashboard.  
+This project analyzes customer support tickets to gain insights into ticket trends, agent performance, resolution efficiency, and patterns of tags and categories.  
+It utilizes **SQL** for data modeling, cleaning, and transformation, and **Power BI** for creating interactive dashboards.  
 The goal is to demonstrate **end-to-end data analytics skills** — from database design to dashboard storytelling.
 
 ---
@@ -32,10 +32,9 @@ The goal is to demonstrate **end-to-end data analytics skills** — from databas
 
 
 <details>
-<summary>
-## 🗄 SQL Implementation
+<summary> ### 🗄 SQL Implementation
   
-  1️⃣ Creating a Database</summary>
+### 1️⃣ Creating a Database</summary>
 
 ```sql
 CREATE DATABASE Customer_Support;
