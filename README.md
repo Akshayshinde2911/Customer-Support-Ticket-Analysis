@@ -235,22 +235,21 @@ FROM (
 WHERE tag_name IS NOT NULL AND tag_name <> '';
 
 ```
-<details>
-<summary>
-## Power BI Dashboard: <summary>
+
+## Power BI Dashboard:
 This Power BI dashboard provides a comprehensive analysis of customer support data. The report's primary purpose is to visualize key metrics related to support performance, identify trends, and provide insights to help improve customer service efficiency.
 
 ### Report Structure
 
 The dashboard is organized into two distinct pages to provide a focused view of the data:
 
-**Page 1 - Overview**: This page offers a high-level summary of the overall support performance. Key visualizations likely include:
+-**Page 1 - Overview**: This page offers a high-level summary of the overall support performance. Key visualizations likely include:
 - A visual representation of key performance indicators (KPIs) like High Priority Tickets, Total Tickets and High Priority tickets %.
 - Total ticket volume over time for analysing Ticket volume trend.
 - Tickets distribution by dimensions such as Priority, Language-code, Ticket Priority, and Queue.
 
 
-**Page 2 - Detailed Analysis**: This page provides a deeper dive into the data, allowing users to explore Tickets by Tags analysis:
+-**Page 2 - Detailed Analysis**: This page provides a deeper dive into the data, allowing users to explore Tickets by Tags analysis:
 - Total ticket tags over time for analysing ticket tags volume trend.
 - Tickets distribution by Queue and Proirity to identify common problems.
 - Matrix  Analysis of tags by Queue and language for analysis of common problem by languages.
@@ -258,20 +257,20 @@ The dashboard is organized into two distinct pages to provide a focused view of 
 
 ### Key Insights 
 
-**Ticket Volume and Urgency**:
+-**Ticket Volume and Urgency**:
 
 1️⃣.The largest volume of support tickets are categorized as Incidents (11,466), followed by Requests (8,187) and Problems (6,012). This suggests that a significant portion of support work is reactive, dealing with live issues as they occur.
 
 2️⃣.The majority of the tickets are assigned a medium (11,515) or high (11,178) priority, indicating that a substantial amount of the workload is urgent or critical.
 
-**Support Queue Workload**:
+-**Support Queue Workload**:
 
 1️⃣.The Technical Support queue is the most active, handling 8,362 tickets. It also manages the highest number of high priority tickets, with 4,900 tickets in this category alone.
 
 2️⃣.The Product Support (5,252 tickets) and Customer Service (4,268 tickets) queues also have a significant workload, with medium priority being the most common category for both.
 
 
-**Common Issues**:
+-**Common Issues**:
 
 1️⃣.The most frequently used tags across all tickets are Tech Support and IT, with counts of 16,505 and 16,325 respectively, highlighting that a large number of issues are technical in nature.
 
