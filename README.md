@@ -33,9 +33,7 @@ The goal is to demonstrate **end-to-end data analytics skills** — from databas
   
 ## 🗄 SQL Implementation
                    
-<details>
-<summary>
-1️⃣ Creating a Database</summary>
+1️⃣ Creating a Database
 
 ```sql
 CREATE DATABASE Customer_Support;
@@ -247,20 +245,14 @@ This Power BI dashboard provides a comprehensive analysis of customer support da
 The dashboard is organized into two distinct pages to provide a focused view of the data:
 
 **Page 1 - Overview**: This page offers a high-level summary of the overall support performance. Key visualizations likely include:
-
 - A visual representation of key performance indicators (KPIs) like High Priority Tickets, Total Tickets and High Priority tickets %.
-
 - Total ticket volume over time for analysing Ticket volume trend.
-
 - Tickets distribution by dimensions such as Priority, Language-code, Ticket Priority, and Queue.
 
 
 **Page 2 - Detailed Analysis**: This page provides a deeper dive into the data, allowing users to explore Tickets by Tags analysis:
-
 - Total ticket tags over time for analysing ticket tags volume trend.
-
 - Tickets distribution by Queue and Proirity to identify common problems.
-
 - Matrix  Analysis of tags by Queue and language for analysis of common problem by languages.
 
 
@@ -279,7 +271,7 @@ The dashboard is organized into two distinct pages to provide a focused view of 
 2️⃣.The Product Support (5,252 tickets) and Customer Service (4,268 tickets) queues also have a significant workload, with medium priority being the most common category for both.
 
 
-- **Common Issues**:
+**Common Issues**:
 
 1️⃣.The most frequently used tags across all tickets are Tech Support and IT, with counts of 16,505 and 16,325 respectively, highlighting that a large number of issues are technical in nature.
 
