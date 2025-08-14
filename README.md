@@ -32,6 +32,8 @@ The goal is to demonstrate **end-to-end data analytics skills** — from databas
 
   
 ## 🗄 SQL Implementation
+
+![](https://github.com/Akshayshinde2911/Customer-Support-Analysis/blob/main/Schema%20Diagram.pdf)
                    
 1️⃣ Creating a Database
 
