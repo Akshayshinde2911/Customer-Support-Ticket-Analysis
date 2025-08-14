@@ -33,7 +33,7 @@ The goal is to demonstrate **end-to-end data analytics skills** — from databas
   
 ## 🗄 SQL Implementation
 
-![](https://github.com/Akshayshinde2911/Customer-Support-Analysis/blob/main/Schema%20Diagram.pdf)
+![](https://github.com/Akshayshinde2911/Customer-Support-Analysis/blob/main/Schema%20Diagram.png)
 
                    
 1️⃣ Creating a Database
@@ -241,6 +241,10 @@ WHERE tag_name IS NOT NULL AND tag_name <> '';
 
 ## Power BI Dashboard:
 This Power BI dashboard provides a comprehensive analysis of customer support data. The report's primary purpose is to visualize key metrics related to support performance, identify trends, and provide insights to help improve customer service efficiency.
+
+![](https://github.com/Akshayshinde2911/Customer-Support-Analysis/blob/main/Dashboard%201.png)
+
+![](https://github.com/Akshayshinde2911/Customer-Support-Analysis/blob/main/Dashboard%202.png)
 
 ### Report Structure
 
