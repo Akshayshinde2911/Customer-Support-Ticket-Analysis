@@ -264,20 +264,20 @@ The dashboard is organized into two distinct pages to provide a focused view of 
 
 ### Key Insights 
 
-**Ticket Volume and Urgency**:
+- **Ticket Volume and Urgency**:
 
 -The largest volume of support tickets are categorized as Incidents (11,466), followed by Requests (8,187) and Problems (6,012). This suggests that a significant portion of support work is reactive, dealing with live issues as they occur.
 
 -The majority of the tickets are assigned a medium (11,515) or high (11,178) priority, indicating that a substantial amount of the workload is urgent or critical.
 
-**Support Queue Workload**:
+- **Support Queue Workload**:
 
 -The Technical Support queue is the most active, handling 8,362 tickets. It also manages the highest number of high priority tickets, with 4,900 tickets in this category alone.
 
 -The Product Support (5,252 tickets) and Customer Service (4,268 tickets) queues also have a significant workload, with medium priority being the most common category for both.
 
 
-**Common Issues**:
+- **Common Issues**:
 
 -The most frequently used tags across all tickets are Tech Support and IT, with counts of 16,505 and 16,325 respectively, highlighting that a large number of issues are technical in nature.
 
