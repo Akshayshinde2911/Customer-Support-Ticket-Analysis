@@ -259,22 +259,22 @@ The dashboard is organized into two distinct pages to provide a focused view of 
 
 - **Ticket Volume and Urgency**:
   
-  1️⃣.The largest volume of support tickets are categorized as Incidents (11,466), followed by Requests (8,187) and Problems (6,012). This suggests that a significant portion of support work is reactive, dealing with live issues as they occur.
-  
-  2️⃣.The majority of the tickets are assigned a medium (11,515) or high (11,178) priority, indicating that a substantial amount of the workload is urgent or critical.
+  -The largest volume of support tickets are categorized as Incidents (11,466), followed by Requests (8,187) and Problems (6,012). This suggests that a significant portion of support work is reactive, dealing with live issues as they occur.
+      
+  - The majority of the tickets are assigned a medium (11,515) or high (11,178) priority, indicating that a substantial amount of the workload is urgent or critical.
 
 - **Support Queue Workload**:
 
-  1️⃣.The Technical Support queue is the most active, handling 8,362 tickets. It also manages the highest number of high priority tickets, with 4,900 tickets in this category alone.
+  - The Technical Support queue is the most active, handling 8,362 tickets. It also manages the highest number of high priority tickets, with 4,900 tickets in this category alone.
   
-  2️⃣.The Product Support (5,252 tickets) and Customer Service (4,268 tickets) queues also have a significant workload, with medium priority being the most common category for both.
+  - The Product Support (5,252 tickets) and Customer Service (4,268 tickets) queues also have a significant workload, with medium priority being the most common category for both.
   
 
 - **Common Issues**:
   
-  1️⃣.The most frequently used tags across all tickets are Tech Support and IT, with counts of 16,505 and 16,325 respectively, highlighting that a large number of issues are technical in nature.
+  - The most frequently used tags across all tickets are Tech Support and IT, with counts of 16,505 and 16,325 respectively, highlighting that a large number of issues are technical in nature.
   
-  2️⃣.Other prevalent tags include :
+  - Other prevalent tags include :
   Performance (13,374), Feedback (7,937), Bug (7,492), and Security (7,046), indicating common areas of concern for customers.
   
-  3️⃣.Disruption (5,744) and Outage (4,364) tags are also highly ranked, suggesting that service availability is a recurring issue for users.
+  - Disruption (5,744) and Outage (4,364) tags are also highly ranked, suggesting that service availability is a recurring issue for users.
